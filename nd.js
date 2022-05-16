@@ -142,14 +142,19 @@ do {
 
   if (first % 2 !== 0) {
     nelyginiuSum1 += 1;
-    console.log('nelyginiu1: ' + nelyginiuSum1);
   }
 
   if (second % 2 !== 0) {
     nelyginiuSum2 += 1;
-    console.log('nelyginiu2: ' + nelyginiuSum2);
   }
 
   count += 1;
-} while (nelyginiuSum1 <= 3 || nelyginiuSum2 <= 3);
+} while (nelyginiuSum1 < 3 || nelyginiuSum2 < 3);
+
 console.log('kiek ciklu: ' + count);
+console.log(
+  'Pirmame stulpelyje sugeneravo: ' +
+    nelyginiuSum1 +
+    ' nelyginius/iu skaicius/iu, antrame: ' +
+    nelyginiuSum2
+);

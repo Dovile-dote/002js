@@ -121,6 +121,7 @@ do {
     }
   } while (num > 12);
   bent20Iteraciju += 1;
+  console.log('vienas baiges');
 } while (iteracijos < 20);
 
 console.log('---B---');
